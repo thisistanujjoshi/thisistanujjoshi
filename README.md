@@ -82,6 +82,13 @@ Distributed systems and platform tooling — microservices, Kubernetes deploymen
   <img src="https://img.shields.io/badge/AppSec-1E3A8A?style=for-the-badge" />
 </p>
 
+### 🤖 LLMs I Build With
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Claude_(Anthropic)-D97757?style=for-the-badge&logo=anthropic&logoColor=white" />
+  <img src="https://img.shields.io/badge/Gemini_(Google)-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" />
+</p>
+
 ---
 
 ## 🏗️ Featured Projects
@@ -89,8 +96,8 @@ Distributed systems and platform tooling — microservices, Kubernetes deploymen
 | Project | What it is | Stack |
 |---|---|---|
 | **[vuln-lab](https://github.com/thisistanujjoshi/vuln-lab)** | Intentionally vulnerable shop + guestbook app for practicing OWASP Top 10 — SQLi (login bypass + UNION-based exfiltration), stored XSS, broken auth. Each vuln documented with CWE, exploit, and fix in `SECURITY.md`. | Express, TypeScript, SQLite |
-| **[system-design-agent](https://github.com/thisistanujjoshi/system-design-agent)** | Multi-agent LLM pipeline that reasons through a system design problem the way a staff engineer would: requirements, scale, architecture, tech choices, self-critique, revision. | Python |
-| **[ai-video-factory](https://github.com/thisistanujjoshi/ai-video-factory)** | End-to-end pipeline that turns a content niche into a published short-form video — research, script, storyboard, generation, render, QA, human approval, publish. | FastAPI, Celery, Next.js |
+| **[system-design-agent](https://github.com/thisistanujjoshi/system-design-agent)** | Multi-agent LLM pipeline that reasons through a system design problem the way a staff engineer would: requirements, scale, architecture, tech choices, self-critique, revision. Agents call **Claude** directly via the Anthropic SDK. | Python, Claude (Anthropic) |
+| **[ai-video-factory](https://github.com/thisistanujjoshi/ai-video-factory)** | End-to-end pipeline that turns a content niche into a published short-form video — research, script, storyboard, generation, render, QA, human approval, publish. Provider-agnostic, live-verified against **Gemini** for narration and text generation. | FastAPI, Celery, Next.js, Gemini (Google) |
 | **[insightboard](https://github.com/thisistanujjoshi/insightboard)** | Multi-tenant analytics SaaS — back office, API, ML forecasting, and NL-to-SQL querying over a React dashboard. | FastAPI, ASP.NET MVC, PostgreSQL, Elasticsearch |
 | **[nexuscommerce](https://github.com/thisistanujjoshi/nexuscommerce)** | Distributed order-management platform running as microservices on Kubernetes. | ASP.NET Core, FastAPI, React, Vue, Kubernetes |
 | **[opsforge](https://github.com/thisistanujjoshi/opsforge)** | Cloud infrastructure & observability platform — provisioning, deployment, and monitoring as one control plane. | Terraform, Helm, Prometheus, Grafana |
